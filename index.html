@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Офлайн-заметки</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="icon" href="icons/aspose-logo.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <div class="header-container">
+            <img src="icons/149452.png" alt="Логотип" class="header-icon">
+            <h1>Мои заметки</h1>
+        </div>
+        <div id="offline-status" class="offline-status">Онлайн</div>
+        <div class="note-form">
+            <textarea id="note-input" placeholder="Введите текст заметки..."></textarea>
+            <button id="add-note">Добавить</button>
+        </div>
+        <div id="notes-list" class="notes-list"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
